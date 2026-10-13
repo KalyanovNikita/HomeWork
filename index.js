@@ -11,7 +11,7 @@ let userAge = 0;
 // Нужно отслеживать, авторизован ли пользователь на сайте. Как назвать
 // переменную?
 
-let stateUser = true;
+let isAuthorized = true;
 // let stateUser = false;
 // состояние.пользователь
 
@@ -20,7 +20,7 @@ let stateUser = true;
 // В переменной хранится список всех товаров в корзине интернет-магазина. Как
 // назвать переменную?
 
-let userCart = [apple, mandarin, banana];
+let userCart = ["apple", "mandarin", "banana"];
 // корзина пользователя с яблоком, мандарином, бананом
 
 // 4
@@ -29,12 +29,12 @@ let userCart = [apple, mandarin, banana];
 // количество страниц. Как назвать переменную для всей книги? А для свойств
 // внутри неё?
 
-let book = [
-  bookName("Песнь льда и пламени"),
-  author("Джордж Мартин"),
-  yearPublication(1991),
-  quantityPages(Infinity),
-];
+let book = {
+  bookName,
+  author,
+  yearPublication,
+  quantityPages,
+};
 
 // переменная для всей книги let book
 // переменные для свойст внутри книги
@@ -67,20 +67,20 @@ let timerId;
 // модальное окно. Как назвать переменную, которая ссылается на эту HTML
 // кнопку?
 
-let modalWindow;
+let openModalButton;
 
 // 8 Булевы значения (да/нет)
 // Переменная отвечает на вопрос: «Отображён ли сейчас этот попап на экране?».
 // Как назвать переменную?
 
-let isPopupWindow;
+let isPopupShown;
 
 // 9
 //  Строки для отображения
 // В переменной собирается приветственное сообщение для пользователя,
 // например «Добро пожаловать, [Имя]!». Как назвать переменную?
 
-let messageName;
+let greetingMessage;
 
 // 10
 // Функции-обработчики
